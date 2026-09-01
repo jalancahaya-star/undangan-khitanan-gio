@@ -4,9 +4,9 @@ const INVITATION = {
   father: 'Hanafi',
   mother: 'Isnaini',
   date: '2026-09-05T06:00:00+08:00',
-  time: 'Pukul 06.00 WITA — selesai',
-  venue: 'Montong Beter, Desa Gunung Rajak',
-  address: 'Montong Beter, Desa Gunung Rajak',
+  time: 'Pukul 11.00 WITA — selesai',
+  venue: 'Montong Beter, Desa Gunung Rajak, Sakra Barat, Lombok Timur',
+  address: 'Montong Beter, Desa Gunung Rajak, Sakra Barat, Lombok Timur',
   coordinates: '-8.7158445,116.4649124',
   // Isi dengan URL Web App Google Apps Script setelah mengikuti GOOGLE_SHEETS_SETUP.md.
   rsvpEndpoint: 'https://script.google.com/macros/s/AKfycbw-TfVA56m7fgByQsk1IyuZ5fYz0lLDj8zBOz7j6yUJE38IBaWrziyxfeW-A9LyqqI/exec',

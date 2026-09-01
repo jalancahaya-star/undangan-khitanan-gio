@@ -1,0 +1,12 @@
+.child-photo {
+  display: block;
+  width: 126px;
+  height: 126px;
+  margin: 0 auto 16px;
+  object-fit: cover;
+  object-position: center 26%;
+  border: 5px solid #fdfcf7;
+  border-radius: 50%;
+  outline: 1px solid #cdd8bc;
+  box-shadow: 0 8px 18px rgba(54, 69, 42, 0.16);
+}

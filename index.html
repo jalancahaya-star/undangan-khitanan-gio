@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#61724b" />
+    <title>Undangan Khitanan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito+Sans:wght@400;600;700;800&family=Waterfall&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <main class="invitation" id="home">
+      <section class="hero section" aria-label="Pembuka undangan">
+        <img class="ornament ornament-top" src="top.webp" alt="Ornamen daun dan monyet" />
+        <div class="hero-copy animate-on-scroll has-animate" data-anim="fade-up">
+          <p class="eyebrow">Tasyakuran Khitanan</p>
+          <p class="basmalah">Bismillahirrahmanirrahim</p>
+          <h1 id="childName">Gio Dwi Fathlani</h1>
+          <p class="hero-date" id="heroDate">Minggu, 20 Desember 2026</p>
+          <span class="leaf-divider">❦</span>
+        </div>
+        <img class="animals" src="btn.webp" alt="Ilustrasi hewan safari" />
+        <span class="scroll-cue">Geser ke atas</span>
+      </section>
+
+      <section class="welcome section" id="mempelai">
+        <img class="ornament corner-top" src="top.webp" alt="" />
+        <div class="content animate-on-scroll" data-anim="fade-up">
+          <p class="eyebrow">Assalamu'alaikum Warahmatullahi Wabarakatuh</p>
+          <h2>Dengan memohon rahmat dan ridho Allah SWT</h2>
+          <p class="body-copy">Kami mengundang Bapak/Ibu/Saudara/i untuk hadir dalam acara tasyakuran khitanan putra kami.</p>
+          <div class="child-card">
+            <img class="child-photo" src="foto.jpeg" alt="Foto ananda Gio Dwi Fathlani" />
+            <p>Putra ke-<span id="childOrder">2</span> dari Bapak <strong id="fatherName">Hanafi</strong><br />&amp; Ibu <strong id="motherName">Isnaini</strong></p>
+            <h3 id="childNameSecond">Gio Dwi Fathlani</h3>
+          </div>
+          <p class="prayer">"Semoga menjadi anak yang saleh, berbakti kepada orang tua, serta berguna bagi agama, nusa, dan bangsa."</p>
+        </div>
+        <img class="animals section-animals" src="btn.webp" alt="Ilustrasi hewan safari" />
+      </section>
+
+      <section class="event section" id="acara">
+        <img class="ornament corner-top" src="top.webp" alt="" />
+        <div class="content animate-on-scroll" data-anim="fade-up">
+          <p class="eyebrow">Save The Date</p>
+          <h2>Acara Khitanan</h2>
+          <div class="date-panel">
+            <span id="eventDayName">Minggu</span>
+            <b id="eventDate">20</b>
+            <span id="eventMonthYear">Desember 2026</span>
+          </div>
+          <div class="event-detail">
+            <div class="event-icon">◷</div>
+            <div><strong id="eventTime">Pukul 06.00 WITA — selesai</strong><br /><span id="venueName">Montong Beter, Desa Gunung Rajak</span></div>
+          </div>
+          <p class="address" id="venueAddress">Montong Beter, Desa Gunung Rajak</p>
+          <a class="button button-outline" id="mapLink" target="_blank" rel="noreferrer">⌖ Lihat Lokasi</a>
+
+          <p class="countdown-label">Menuju hari bahagia</p>
+          <div class="countdown" aria-label="Hitung mundur acara">
+            <div><b id="days">00</b><span>Hari</span></div><i></i>
+            <div><b id="hours">00</b><span>Jam</span></div><i></i>
+            <div><b id="minutes">00</b><span>Menit</span></div><i></i>
+            <div><b id="seconds">00</b><span>Detik</span></div>
+          </div>
+        </div>
+        <img class="animals section-animals" src="btn.webp" alt="Ilustrasi hewan safari" />
+      </section>
+
+      <section class="rsvp section" id="rsvp">
+        <img class="ornament corner-top" src="top.webp" alt="" />
+        <div class="content animate-on-scroll" data-anim="fade-up">
+          <p class="eyebrow">Konfirmasi Kehadiran</p>
+          <h2>RSVP</h2>
+          <p class="body-copy">Mohon konfirmasi kehadiran Anda agar kami dapat mempersiapkan acara dengan baik.</p>
+          <form id="rsvpForm" class="rsvp-form">
+            <label>Nama<input id="guestName" required placeholder="Tuliskan nama Anda" /></label>
+            <label>Konfirmasi<select id="attendance" required><option value="">Pilih kehadiran</option><option>Hadir, insya Allah</option><option>Belum bisa hadir</option></select></label>
+            <label>Ucapan &amp; Doa<textarea id="guestMessage" placeholder="Tuliskan ucapan terbaik Anda"></textarea></label>
+            <button class="button" type="submit">Kirim Ucapan</button>
+          </form>
+          <div class="wishes" id="wishes" aria-live="polite"></div>
+        </div>
+        <img class="animals section-animals" src="btn.webp" alt="Ilustrasi hewan safari" />
+      </section>
+
+      <section class="closing section">
+        <img class="ornament ornament-top" src="top.webp" alt="" />
+        <div class="content animate-on-scroll" data-anim="fade-up">
+          <p class="eyebrow">Terima Kasih</p>
+          <h2>Merupakan suatu kehormatan bagi kami atas kehadiran dan doa restu Anda.</h2>
+          <p class="closing-salam">Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
+          <p class="from">Keluarga Besar<br /><strong id="familyName">Hanafi &amp; Isnaini</strong></p>
+        </div>
+        <img class="animals" src="btn.webp" alt="Ilustrasi hewan safari" />
+      </section>
+    </main>
+
+    <aside class="cover" id="cover" aria-label="Sampul undangan">
+      <img class="ornament ornament-top" src="top.webp" alt="" />
+      <div class="cover-copy">
+        <p class="eyebrow">Undangan Khitanan</p>
+        <p class="to-label">Kepada Yth.</p>
+        <h2 id="guestDisplay">Bapak/Ibu/Saudara/i</h2>
+        <p class="invite-line">Kami mengundang Anda untuk hadir dalam tasyakuran khitanan</p>
+        <h1 id="coverName">Gio Dwi Fathlani</h1>
+        <p class="hero-date" id="coverDate">Minggu, 20 Desember 2026</p>
+        <button class="button open-button" id="openInvitation" type="button">✉ Buka Undangan</button>
+      </div>
+      <img class="animals" src="btn.webp" alt="Ilustrasi hewan safari" />
+    </aside>
+
+    <audio id="backgroundMusic" loop preload="auto"><source src="music.mp3" type="audio/mpeg" /></audio>
+    <button class="music-button" id="musicButton" type="button" aria-label="Putar musik" aria-pressed="false">♪</button>
+    <nav class="bottom-nav" aria-label="Navigasi undangan">
+      <a href="#home" class="active"><span>⌂</span>Home</a><a href="#mempelai"><span>♡</span>Ananda</a><a href="#acara"><span>◷</span>Acara</a><a href="#rsvp"><span>✎</span>RSVP</a>
+    </nav>
+    <div class="toast" id="toast" role="status"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
